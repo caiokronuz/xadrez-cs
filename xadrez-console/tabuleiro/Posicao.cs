@@ -1,3 +1,5 @@
+//Classe que controle a instanciação da Posição da peça na Matriz.
+
 namespace tabuleiro{
     public class Posicao{
         public int linha {get; set;}

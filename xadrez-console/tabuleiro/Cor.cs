@@ -1,3 +1,5 @@
+//Enum que controla qual a cor da peça do tabuleiro
+
 namespace tabuleiro{
     enum Cor: int{
         Branca,
@@ -8,5 +10,4 @@ namespace tabuleiro{
         Verde,
         Laranja
     }
-
 }

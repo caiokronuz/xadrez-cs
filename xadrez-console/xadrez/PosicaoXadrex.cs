@@ -1,3 +1,5 @@
+//Classe para instanciar uma matriz usando o padrão A,B,C,... para colunas e 1-8 para linhas
+
 using tabuleiro;
 
 namespace xadrez_console.xadrez{
@@ -11,7 +13,7 @@ namespace xadrez_console.xadrez{
         }
 
         public Posicao ToPosicao(){
-            return new Posicao(8-linha, coluna - 'a');
+            return new Posicao(8-linha, coluna - 'a'); //Converte do padrao letra, numero para numero, numero
         }
 
         public override string ToString()
