@@ -32,8 +32,14 @@ namespace tabuleiro{
             p.posicao = pos; //Define a posição da peça "p" como "pos"
         }
 
+        /*
+            Função que retira peça, ela recece uma Posicao, e verifica se existe uma peça nessa Posicao, caso
+            não exista, ela retorna null, caso exista, ela salva a peça em uma variavel auxiliar (para retorna-la
+            ao fim da função) e retira a peça do tabuleiro, definindo sua posição como null e definindo a coordenada
+            dela na matriz de peças como null.
+        */
         public Peca retirarPeca(Posicao pos){
-            if(peca(pos) == null){
+            if(peca(pos) == null){ 
                 return null;
             }
 

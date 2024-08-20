@@ -12,6 +12,9 @@ namespace xadrez_console{
                 while(!partida.terminada){
                     Console.Clear();
                     Tela.imprimirTabuleiro(partida.tab);
+                    Console.WriteLine();
+                    Console.WriteLine($"Turno: {partida.turno}");
+                    Console.WriteLine($"Aguardando jogada: {partida.jogadorAtual}");
 
                     Console.WriteLine();
 
