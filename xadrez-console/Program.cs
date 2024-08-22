@@ -36,8 +36,12 @@ namespace xadrez_console{
                     }catch(TabuleiroException e){
                         Console.WriteLine("Erro: "+ e.Message);
                         Console.ReadLine();
+                        Console.Clear();
                     }
                 }
+
+                Console.Clear();
+                Tela.imprimirPartida(partida);
 
             }catch(TabuleiroException e){
                 Console.WriteLine("Erro: "+ e.Message);
